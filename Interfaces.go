@@ -1,10 +1,12 @@
+// You can edit this code!
+// Click here and start typing.
 package main
 
 import "fmt"
 
 func main() {
 	var w Writer = ConsoleWriter{}
-	w.Write([]byte{"Hello Go!"})
+	w.Write([]byte("Hello Go!"))
 }
 
 type Writer interface {
